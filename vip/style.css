@@ -1,0 +1,19 @@
+
+/* Video */
+#video-container{
+  height: 682px;
+  background: url(images/iPhone_5s_silver.png) no-repeat;
+  background: -webkit-image-set(url(images/iPhone_5s_silver.png) 1x, url(images/iPhone_5s_silver_2x.png) 2x) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#video-container video{
+  display: block;
+  width: 272px;
+  height: 483px;
+  margin: 0 auto;
+  position: relative;
+  top: 99px;
+}
+
+
